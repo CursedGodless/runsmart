@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import 'base/variables.scss';
 
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
@@ -8,6 +8,6 @@
   max-width: 950px;
   margin: 0 auto;
 }
-@import 'promo.scss';
-@import 'header.scss';
-@import 'buttons.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss';
