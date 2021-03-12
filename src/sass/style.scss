@@ -1,13 +1,25 @@
 @import 'base/variables.scss';
 
+
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .container {
-  max-width: 950px;
+  max-width: 970px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #0D0D0D;
+  text-align: center;
 }
 @import 'blocks/promo.scss';
 @import 'blocks/header.scss';
 @import 'blocks/buttons.scss';
+@import 'blocks/advantages.scss';
+@import 'base/media.scss';
