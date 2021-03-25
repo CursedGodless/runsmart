@@ -7,7 +7,7 @@ $(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><img src="../icons/chevron-right-solid.png"></button>',
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
           arrows: false,
           dots: true,

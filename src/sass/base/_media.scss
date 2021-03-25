@@ -4,7 +4,47 @@
       align-items: center;
     }
   }
-  
+  .carousel {
+    &__inner {
+      width: 740px;
+    }
+  }
+  .slick {
+    &-dots {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      font-size: 0;
+      font-weight: 0;
+      line-height: 0;
+      li {
+        margin: 0 10px 0 0;
+        &:nth-child(3) {
+          margin-right: 0;
+        }
+      }
+      button {
+        border: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        padding: 0;
+      }
+    }
+    &-active {
+      button {
+        background: #000;
+      }
+
+    }
+  }
+  .catalog {
+    &__content {
+      &_active {
+        justify-content: space-around;
+      }
+    }
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -58,6 +98,40 @@
   .consultation {
     &__descr {
       text-align: center;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 100%;
+    }
+  }
+  .slick {
+    &-slide {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .catalog {
+    &__tab {
+      width: 33%;
+      font-size: 15px;
+    }
+  }
+  .feedback {
+    &-item {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__name {
+      margin-top: 15px;
+      text-align: center;
+    }
+    &__part {
+      text-align: center;
+    }
+    &__img {
+      margin: 0;
     }
   }
 }
@@ -122,6 +196,24 @@
     button {
       height: 40px;
       font-size: 15px;
+    }
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__tab {
+      width: 70%;
+      margin: 7px 0;
+    }
+  }
+  .slick {
+    &-dots {
+      button {
+        width: 9px;
+        height: 9px;
+      }
     }
   }
 }
