@@ -123,7 +123,7 @@
   }
   .catalog {
     &__tab {
-      width: 33%;
+      width: 150px;
       font-size: 15px;
     }
   }
@@ -246,5 +246,9 @@
     &__tel {
       margin: 13px 0;
     }
+  }
+  .modal {
+    width: 100%;
+    padding: 10px;
   }
 }
