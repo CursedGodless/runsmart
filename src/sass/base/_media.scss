@@ -206,7 +206,7 @@
     }
   }
   .feed-form {
-    
+    width: 100%;
     input {
       height: 40px;
     }
@@ -248,7 +248,14 @@
     }
   }
   .modal {
-    width: 100%;
+    width: 285px;
     padding: 10px;
+    min-height: 330px;
+    &__subtitle {
+      font-size: 16px;
+    }
+    &__descr {
+      font-size: 12px;
+    }
   }
 }
