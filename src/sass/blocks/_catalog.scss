@@ -129,26 +129,29 @@
       transition: .5s all;
       padding-left: 19px;
       margin-bottom: 0;
-      list-style: none;
+      
       &_active {
         transform: translateX(-100%);
         margin-left: 0px;
       }
-      li {
-        position: relative;
-        font-size: 14px;
-        font-weight: 300;
-        color: #555;
-        &::before {
-          content: '';
-          position: absolute;
-          width: 5px;
-          height: 5px;
-          background-color: $main-color;
-          left: -14px;
-          top: 7px;
+      ul {list-style: none;
+        li {
+          position: relative;
+          font-size: 14px;
+          font-weight: 300;
+          color: #555;
+          &::before {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: $main-color;
+            left: -14px;
+            top: 7px;
+          }
         }
       }
+      
     }
     &__back {
       position: absolute;
